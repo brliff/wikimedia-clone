@@ -1,0 +1,51 @@
+html, body {
+    width: 100%;
+    margin: 0;
+    background: #FFFFFF;
+    font: 13px sans-serif;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.intro {
+    text-align: justify;
+    vertical-align: top;
+    font-size: 150%;
+    margin: 0 auto;
+    padding: 5px;
+    line-height: 160%;
+}
+
+.intro .signature {
+    text-align: right;
+}
+
+.logos {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    align-content: center;
+    width: 90%;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.logos img {
+    /*align-content: center;*/
+    height: auto;
+    width: 135px;
+    flex-basis: 20%;
+    margin: 20px;
+}
+
+.wiki-logos:after {
+    clear: both;
+}
+
+.footer {
+    border-top: 1px solid black;
+    text-align: center;
+}
